@@ -1,6 +1,6 @@
 # Employee Ratings
 
-A Python-based application for managing and analyzing employee performance ratings. This project allows organizations to track, view, and evaluate employee ratings using an easy-to-use API.
+A Python-based application for managing and analyzing employee performance ratings. This project allows organizations to track, view, and evaluate employee ratings using an easy-to-use interface.
 
 ## Table of Contents
 - [About the Project](#about-the-project)
@@ -16,7 +16,7 @@ This project was created as the final assignment for the Python programming cour
 Employee Ratings is designed to streamline the performance evaluation process. 
 Key objectives include:
 - Providing a centralized system for employee performance records.
-- Allowing managers to submit and update ratings through an API.
+- Allowing managers to submit and update ratings efficiently.
 - Enabling data-driven insights into team performance.
 
 ## Features
