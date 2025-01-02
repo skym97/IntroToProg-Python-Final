@@ -7,12 +7,11 @@ A Python-based application for managing and analyzing employee performance ratin
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Documentation](#api-documentation)
 - [Acknowledgments](#acknowledgments)
 - [License](#license)
 
 ## About the Project
-This project was created as the final assignment for the Python programming course at the University of Washington. The goal of this project is to demonstrate the ability to build a functional Python application and document its API for external use.
+This project was created as the final assignment for the Python programming course at the University of Washington. The goal of this project is to demonstrate the ability to build a functional Python application. The documentation created for this is something I created on my own time and was not part of the final project. 
 
 Employee Ratings is designed to streamline the performance evaluation process. 
 Key objectives include:
@@ -22,7 +21,8 @@ Key objectives include:
 
 ## Features
 - Add and update employee performance ratings.
-- Fetch employee details and rating history via an API.
+- View a detailed list of employee reviews, including performance descriptions (e.g., "Leading" for a rating of 5).
+- Save and load employee data from a JSON file.
 - Error handling for invalid input or unauthorized requests.
 
 ## Installation
@@ -44,12 +44,17 @@ Key objectives include:
    ```bash
    python main.py
    ```
-2. Access the API via the following endpoints (see full documentation in the `api_docs/` folder):
-   - `GET /api/employees` - List all employees.
-   - `POST /api/employees` - Add a new employee.
+2. The program provides the following functionality through a text-based menu:
+   - Option 1: Display current employee rating data.
+   - Option 2: Enter new employee rating data, including first name, last name, review date, and rating (1-5).
+   - Option 3: Save data to the `EmployeeRatings.json` file.
+   - Option 4: Exit the program.
 
-## API Documentation
-Comprehensive API documentation is available [here](./api_docs/overview.md).
+## File Structure Overview
+- `data_classes.py`: Defines the Employee class, which represents individual employee data.
+- `presentation_classes.py`: Handles user interactions, such as displaying menus and collecting input.
+- `processing_classes.py`: Manages reading from and writing to the EmployeeRatings.json file.
+- `main.py`: The entry point of the application, orchestrating functionality across modules.
 
 ## Acknowledgments
 This project was developed as part of the Python programming course at the University of Washington. Special thanks to my instructor(s) and classmates for their guidance and feedback throughout the course. Additionally, I utilized ChatGPT to help structure the documentation for this project.
