@@ -56,4 +56,4 @@ Key objectives include:
 - `main.py`: The entry point of the application, orchestrating functionality across modules.
 
 ## Acknowledgments
-This project was developed as part of the Python programming course at the University of Washington. Special thanks to my instructor(s) and classmates for their guidance and feedback throughout the course. Additionally, I utilized ChatGPT to provide a guideline for documentation.
+This project was developed as part of the Python programming certificate course at the University of Washington. Special thanks to my instructors for their guidance and feedback throughout the course. Additionally, I want to acknowledge that I utilized ChatGPT to provide a guideline for documentation.
