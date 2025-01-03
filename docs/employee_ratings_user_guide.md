@@ -63,7 +63,7 @@ The Employee Ratings application is a Python-based program for managing employee
 ## Menu Options
 After starting the application, you will see the following menu:
 ```bash
-  ---- Employee Ratings ------------------------------
+---- Employee Ratings ------------------------------
   Select from the following menu:
     1. Show current employee rating data.
     2. Enter new employee rating data.
@@ -87,7 +87,7 @@ After starting the application, you will see the following menu:
 - Adds the new employee data to memory.
 
 ### Option 3: Save Data to a File
-- Saves al l current employee data in memory to `EmployeeRatings.JSON`
+- Saves all current employee data in memory to `EmployeeRatings.JSON`
 - Confirms success with a message.
 
 ### Option 4: Exit the Program
