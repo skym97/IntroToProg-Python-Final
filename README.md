@@ -8,10 +8,9 @@ A Python-based application for managing and analyzing employee performance ratin
 - [Installation](#installation)
 - [Usage](#usage)
 - [Acknowledgments](#acknowledgments)
-- [License](#license)
 
 ## About the Project
-This project was created as the final assignment for the Python programming course at the University of Washington. The goal of this project is to demonstrate the ability to build a functional Python application. The documentation created for this is something I created on my own time and was not part of the final project. 
+This project was created as the final assignment for the Foundations of Programming (Python) certificate course at the University of Washington. The goal of this project is to demonstrate the ability to build a functional Python application. The documentation created for this is something I created on my own time and not part of the final project. 
 
 Employee Ratings is designed to streamline the performance evaluation process. 
 Key objectives include:
@@ -57,7 +56,4 @@ Key objectives include:
 - `main.py`: The entry point of the application, orchestrating functionality across modules.
 
 ## Acknowledgments
-This project was developed as part of the Python programming course at the University of Washington. Special thanks to my instructor(s) and classmates for their guidance and feedback throughout the course. Additionally, I utilized ChatGPT to help structure the documentation for this project.
-
-## License
-Distributed under the MIT License. See `LICENSE` for more information.
+This project was developed as part of the Python programming course at the University of Washington. Special thanks to my instructor(s) and classmates for their guidance and feedback throughout the course. Additionally, I utilized ChatGPT to provide a guideline for documentation.
