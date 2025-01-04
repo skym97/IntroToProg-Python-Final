@@ -22,7 +22,7 @@ Handles data persistence, including reading and writing to the JSON file.
 
 ### `main.py`
 
-Global Variables
+Global Variables:
 
 - `FILE_NAME`: The default filename for storing employee data (`EmployeeRatings.json`).
 
@@ -30,7 +30,7 @@ Global Variables
 
 - `employees`: A list to store employee objects.
 
-Main Script Flow
+Main Script Flow:
 
 - Reads employee data from the file using `FileProcessor.read_employee_data_from_file`.
 
@@ -43,20 +43,20 @@ Main Script Flow
 #### `class Person`
 Represents basic personal information.
 
-Attributes
+Attributes:
 
 - `first_name` (str): The person's first name
 
 - `last_name` (str): The person's last name
 
-Methods
+Methods:
 
 - `__str__()`: Returns a formatted string representation of the object.
 
 #### `class Employee`
 Extends `Person` to include employee-specific attributes.
 
-Attributes
+Attributes:
 
 - `review_date` (str): The date of the employee review (YYYY-MM-DD).
 
@@ -71,7 +71,7 @@ Methods:
 `class IO`
 Manages user input and output.
 
-Key Methods
+Key Methods:
 
 - `output_error_messages(message, error)`: Displays error messages.
 
@@ -88,7 +88,7 @@ Key Methods
 `class FileProcessor`
 Handles file operations.
 
-Key Methods
+Key Methods:
 
 - `read_employee_data_from_file(file_name, employee_data, employee_type)`: Reads data from a JSON file and populates the employee list.
 
