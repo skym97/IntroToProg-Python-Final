@@ -7,6 +7,7 @@ A Python-based application for managing and analyzing employee performance ratin
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Documentation](#documentation)
 - [Acknowledgments](#acknowledgments)
 
 ## About the Project
@@ -49,11 +50,22 @@ Key objectives include:
    - Option 3: Save data to the `EmployeeRatings.json` file.
    - Option 4: Exit the program.
 
-## File Structure Overview
+### File Structure Overview
 - `data_classes.py`: Defines the Employee class, which represents individual employee data.
 - `presentation_classes.py`: Handles user interactions, such as displaying menus and collecting input.
 - `processing_classes.py`: Manages reading from and writing to the EmployeeRatings.json file.
 - `main.py`: The entry point of the application, orchestrating functionality across modules.
 
+## Documentation
+
+This project includes detailed documentation to help users and developers:
+
+- [User Guide](docs/user_guide.md): A comprehensive guide for using the Employee Ratings application, including installation, usage, and troubleshooting.
+- [Code Documentation](docs/code_documentation.md): Technical details about the application's structure, modules, and functionality.
+
 ## Acknowledgments
-This project was developed as part of the Python programming certificate course at the University of Washington. Special thanks to my instructors for their guidance and feedback throughout the course. Additionally, I want to acknowledge that I utilized ChatGPT to provide a guideline for documentation.
+This project was developed as part of the Python programming certificate course at the University of Washington. 
+
+Special thanks to my instructors for their guidance and feedback throughout the course. 
+
+Additionally, I want to acknowledge that I utilized ChatGPT to provide a guideline to create the documentation for this project.
