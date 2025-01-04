@@ -11,7 +11,9 @@ A Python-based application for managing and analyzing employee performance ratin
 - [Acknowledgments](#acknowledgments)
 
 ## About the Project
-This project was created as the final assignment for the Foundations of Programming (Python) certificate course at the University of Washington. The goal of this project is to demonstrate the ability to build a functional Python application. The documentation created for this is something I created on my own time and not part of the final project. 
+This project was created as the final assignment for the Foundations of Programming (Python) certificate course at the University of Washington. The goal of this project is to demonstrate the ability to build a functional Python application. 
+
+The documentation created for this is something I created on my own time and not part of the final project. 
 
 Employee Ratings is designed to streamline the performance evaluation process. 
 Key objectives include:
