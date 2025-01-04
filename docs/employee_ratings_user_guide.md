@@ -93,3 +93,25 @@ After starting the application, you will see the following menu:
 #### Option 4: Exit the Program
 - Ends the Program
 - Any unsaved changes will be lost
+
+## Error Handling
+The application includes error handling to guide through common issues:
+
+- Invalid Menu Choice:
+  - If you select an option outside of 1 - 4, you will be prompted to enter a valid choice.
+
+- Data Entry Errors:
+  - Invalid first or last names (eg. containing numbers) will prompt a retry.
+  - Incorrect review date format will display an error message.
+  - Out-of-range review ratings (not between 1 - 5) will be rejected with guidance.
+ 
+- File Handling Errors:
+  - Missing `EmployeeRatings.JSON` will raise a clear message to create or check the file.
+  - Permission errors when writing to file will notify you to check permission files.
+ 
+- General Errors:
+  - Unexpected errors will display a generic error message and detailed technical information to assist in troubleshooting.
+
+For any issues, follow the on-screen prompts to correct your input or address the problem.
+
+
